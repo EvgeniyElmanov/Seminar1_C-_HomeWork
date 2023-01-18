@@ -3,9 +3,8 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Введите число:");
+Console.WriteLine("Enter the number: ");
 int number = int.Parse(Console.ReadLine());
 int numberA = number / 10;
 int numberB = numberA % 10;
-
 Console.WriteLine(numberB);
